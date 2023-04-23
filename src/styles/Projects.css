@@ -9,6 +9,7 @@
   background-size: cover;
   color: #141313;
   min-height: calc(100vh - 50px);
+  padding-top: 100px;
 }
 
 .project {
@@ -24,6 +25,10 @@
 
 .project:nth-child(2n) {
   margin-left: 20px;
+}
+
+.projects h1 {
+  color: #4CAF50;
 }
 
 .project h3 {

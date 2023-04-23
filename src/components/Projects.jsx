@@ -4,7 +4,7 @@ import '../styles/Projects.css'
 function Projects() {
   return (
     <div id="projects" className="projects">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="project-list">
         {projectsData.map((project, index) => (
           <div key={index} className="project">

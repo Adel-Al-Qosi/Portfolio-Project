@@ -22,6 +22,7 @@ function App() {
       <Projects />
       <Contact />
     </BrowserRouter>
+    
     </div>
   );
 }

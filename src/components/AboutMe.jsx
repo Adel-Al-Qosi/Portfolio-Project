@@ -5,7 +5,6 @@ import Skills from "./Skills";
 const AboutMe = () => {
   return (
     <div id="about" className="about-me">
-      <h1></h1>
       <h2>About Me</h2>
       <p>
         My name is Adel Al Qosi, and I'm a passionate web developer. I've always
@@ -25,6 +24,7 @@ const AboutMe = () => {
       </p>
       <div className="skills">
         <Skills />
+        
       </div>
     </div>
   );
