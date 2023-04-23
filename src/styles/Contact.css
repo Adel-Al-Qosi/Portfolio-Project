@@ -1,0 +1,7 @@
+#contact {
+    background-image: url('../images/wave-haikei.svg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #141313; 
+  min-height: calc(100vh - 50px)
+}

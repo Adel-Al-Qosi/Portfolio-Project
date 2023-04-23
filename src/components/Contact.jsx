@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import '../styles/Contact.css'
 
 function Contact() {
   return (

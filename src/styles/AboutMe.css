@@ -1,14 +1,16 @@
 
 
 .about-me {
-  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  background-image: url('../images/wave-haikei.svg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #141313; 
+  min-height: 100vh;
 }
 
 .about-me h2 {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .about-me p {

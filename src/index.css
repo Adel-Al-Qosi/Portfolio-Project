@@ -6,10 +6,3 @@ body {
   font-size: larger;
   min-height: 100vh;
 }
-
-.svg-curly-shape {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
