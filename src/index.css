@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=DynaPuff:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Caveat', cursive;
+  font-size: larger;
+  min-height: 100vh;
+}
+
+.svg-curly-shape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}

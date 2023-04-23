@@ -1,0 +1,32 @@
+
+
+.about-me {
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  color: #141313; 
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-me ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
+
+.about-me .skills {
+  margin-top: 30px;
+}

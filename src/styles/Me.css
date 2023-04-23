@@ -1,0 +1,15 @@
+.home-page-image {
+  width: 350px;
+  max-height: 350px;
+  border-radius: 50%;
+}
+
+#visual2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.center {
+  text-align: center;
+}
