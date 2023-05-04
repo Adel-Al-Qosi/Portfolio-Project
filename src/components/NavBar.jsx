@@ -11,11 +11,11 @@ function NavBar() {
       const projects = document.getElementById('projects');
       const contact = document.getElementById('contact');
 
-      if (contact && window.scrollY + window.innerHeight >= contact.offsetTop + contact.offsetHeight -200) {
+      if (contact && window.scrollY + window.innerHeight >= contact.offsetTop + contact.offsetHeight -100) {
         setActive('contact');
       } else if (projects && window.scrollY + window.innerHeight >= projects.offsetTop + projects.offsetHeight -100) {
         setActive('projects');
-      } else if (about && window.scrollY + window.innerHeight >= about.offsetTop + about.offsetHeight - 100) {
+      } else if (about && window.scrollY + window.innerHeight >= about.offsetTop + about.offsetHeight - 150) {
         setActive('about');
       } else {
         setActive('home');
