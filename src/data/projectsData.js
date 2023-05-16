@@ -1,13 +1,12 @@
-import portfolioImage from "../images/projects-images/portfolio.JPG";
 import spaceTourismImage from "../images/projects-images/Screenshot from 2023-05-04 19-27-52.png";
+import frontEnd1 from "../images/projects-images/front-end-1.png"
 
 const projectsData = [
   {
-    name: "My First Project",
-    description:
-      "My portfolio. I put it as my first project for now. because of lack of projects.",
-    image: portfolioImage,
-    link: "https://github.com/Adel-Al-Qosi/Portfolio-Project"
+    name: "Front-end E-commerce project",
+    description: "a cool Front-end site built with react and css",
+    image: frontEnd1,
+    link: "https://adel-front-end-1.netlify.app/"
   },
 
   {
@@ -16,6 +15,8 @@ const projectsData = [
     image: spaceTourismImage,
     link: "https://github.com/Adel-Al-Qosi/space-tourism"
   }
+
+  
 ];
 
 export { projectsData };
